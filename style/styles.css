@@ -1,0 +1,60 @@
+.par{
+    font-size: 20px;
+}
+
+p.par{
+    background-color: brown;
+    color: white;
+}
+
+ul.par{
+    text-decoration: underline;
+}
+
+div ol li{
+    font-family: Impact;
+    font-size: small;
+}
+
+h3, a, table{
+    background-color: cadetblue;
+}
+
+h3+p{
+    text-transform: uppercase;
+    background-color: cornsilk;
+}
+
+div[align]{
+    background-color: black;
+}
+
+a[href="outro.html"]{
+    background-color: aliceblue;
+}
+
+ul li:nth-child(3){
+    background-color: darkgray;
+}
+
+ol > li{
+    background-color: cornflowerblue;
+    opacity: 0.5;
+}
+
+#lista2 li{
+    border: solid red 2px;
+    border-bottom: none;
+}
+
+#lista2 ul li{
+    border: none;
+}
+
+#lista2 li:first-child{
+    border-top: none;
+}
+
+#lista2 li:last-child{
+    border-bottom: none;
+}
